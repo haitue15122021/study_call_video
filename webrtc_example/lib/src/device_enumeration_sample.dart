@@ -140,7 +140,7 @@ class _DeviceEnumerationSampleState extends State<DeviceEnumerationSample> {
     /// Đây là 1 demo nhỏ, cả 2 peer trên 1 device nên ko cần websocket hay ,máy chủ nào.
     ///
     /// Quá trình thu thập ICE candidates kết thúc khi cả hai đối tác đã thu thập và trao đổi thông tin về tất cả các ICE candidates cục bộ và từ xa của họ thông qua signaling.
-    /// Sau đó, họ sẽ sử dụng thông tin này để xác định các kết nối trực tiếp giữa họ bằng cách chọn một trong các ICE candidates có khả năng kết nối tốt nhất để truyền thông dữ liệu.
+    /// Sau đó, họ sẽ sử dụng thông tin này để xác định các kết nối  giữa họ bằng cách chọn một trong các ICE candidates có khả năng kết nối tốt nhất để truyền thông dữ liệu.
 
     ///ICE candidate có khả năng kết nối tốt nhất để truyền thông dữ liệu là ICE candidate mà có thể thiết lập kết nối trực tiếp giữa hai đối tác mà không cần sử dụng máy chủ trung gian (relay server) như TURN.
     ///Điều này thường xảy ra khi hai đối tác đang ở trong cùng một mạng LAN (Local Area Network) hoặc khi họ có thể truy cập trực tiếp vào địa chỉ IP công cộng của nhau thông qua các mạng công cộng.
